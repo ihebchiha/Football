@@ -1,25 +1,24 @@
-1 Marc André Ter Stegen
-2 Nélson Semedo
-3 Gerard Piqué
-4 Ivan Rakitic
-5 Sergio Busquets
-6 Denis Suarez
-7 Philippe Coutinho
-8 Arthur Melo
-9 Luis Suarez
-10 Lionel Messi
-11 Ousmane Dembélé
-12 Rafinha
-13 Jasper Cillessen
-14 Malcom
-15 Clément Lenglet
-16 Samper
-17 -
-18 Jordi Alba
-19 Kevin-Prince Boateng
-20 Sergi Roberto
-21 Carles Alena
-22 Arturo Vidal
-23 Samuel Umtiti
-27 Juan Miranda
+1:Marc Andre Ter Stegen:Germany:
+2:Nelson Semedo:Portugal:
+3:Gerard Pique:Spain:
+4:Ivan Rakitic:Croatia:
+5:Sergio Busquets:Spain:
+6:Denis Suarez:Spain:
+7:Philippe Coutinho:Brazil:
+8:Arthur Melo:Brazil:
+9:Luis Suarez:Uruguay:
+10:Lionel Messi:Argentina:
+11:Ousmane Dembele:France:
+12:Rafinha:Brazil:
+13:Jasper Cillessen:Netherlands:
+14:Malcom:Brazil:
+15:Clement Lenglet:France:
+16:Samper:Spain:
+18:Jordi Alba:Spain:
+19:Kevin-Prince Boateng:Ghana:
+20:Sergi Roberto:Spain:
+21:Carles Alena:Spain:
+22:Arturo Vidal:Chile:
+23:Samuel Umtiti:France
+27:Juan Miranda:Spain:
 
