@@ -1,0 +1,25 @@
+1:Alex Meret:Italy:GOALKEEPER:0:0
+25:David Ospina:Colombia:GOALKEEPER:0:0
+27:Orestis Karnezis:Greece:GOALKEEPER:0:0
+2:Kévin Malcuit	France:DEFENDER:0:0
+6:Mário Rui:Portugal:DEFENDER:0:0
+13:Sebastiano Luperto:Italy:DEFENDER:0:0
+19:Nikola Maksimović:Serbia:DEFENDER:0:0
+21:Vlad Chiricheș:Romania:DEFENDER:0:0
+23:Elseid Hysaj:Albania:DEFENDER:0:0
+26:Kalidou Koulibaly:Senegal:DEFENDER:0:0
+31:Faouzi Ghoulam:Algeria:DEFENDER:0:0
+33:Raúl Albiol:Spain:DEFENDER:0:0
+5:Allan:Brazil:MIDFIELDER:0:0
+8:Fabián Ruiz:Spain:MIDFIELDER:0:0
+17:Marek Hamšík:Slovakia:MIDFIELDER:0:0
+20:Piotr Zieliński:Poland:MIDFIELDER:0:0
+30:Marko Rog:Croatia:MIDFIELDER:0:0
+42:Amadou Diawara:Guinea:MIDFIELDER:0:0
+7:José Callejón:Spain:FORWARD:0:0
+9:Simone Verdi:Italy:FORWARD:0:0
+11:Adam Ounas:Algeria:FORWARD:0:0
+14:Dries Mertens:Belgium:FORWARD:0:0
+24:Lorenzo Insigne:Italy:FORWARD:0:0
+34:Amin Younes:Germany:FORWARD:0:0
+99:Arkadiusz Milik:Poland:FORWARD:0:0

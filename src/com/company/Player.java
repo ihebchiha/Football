@@ -6,15 +6,15 @@ public class Player extends Person{
 
     private int idLicence;
     private int number_on_shirt;
-    private String strongLeg;
+    private String position;
     private int nbGoals;
     private int nbAssists;
 
-    public Player(int idLicence, int number_on_shirt,String strongLeg, int nbGoals, int nbAssists, String fullname,Date birthDate, String birthPlace, String nationality) {
+    public Player(int idLicence, int number_on_shirt, String position, int nbGoals, int nbAssists, String fullname, Date birthDate, String birthPlace, String nationality) {
         super(fullname, birthDate, birthPlace, nationality);
         this.idLicence = idLicence;
         this.number_on_shirt=number_on_shirt;
-        this.strongLeg = strongLeg;
+        this.position = position;
         this.nbGoals = nbGoals;
         this.nbAssists = nbAssists;
     }
@@ -35,14 +35,6 @@ public class Player extends Person{
         this.number_on_shirt = number_on_shirt;
     }
 
-    public String getStrongLeg() {
-        return strongLeg;
-    }
-
-    public void setStrongLeg(String strongLeg) {
-        this.strongLeg = strongLeg;
-    }
-
     public int getNbGoals() {
         return nbGoals;
     }
@@ -57,5 +49,11 @@ public class Player extends Person{
 
     public void setNbAssists(int nbAssists) {
         this.nbAssists = nbAssists;
+    }
+
+    public void showPlayerInfos() {
+        System.out.println(super.getFullname());
+        System.out.println(super.getBirthDate() + " in " + super.getBirthPlace());
+        System.out.println(position + " " + number_on_shirt);
     }
 }

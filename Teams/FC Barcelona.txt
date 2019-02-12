@@ -1,24 +1,23 @@
-1:Marc Andre Ter Stegen:Germany:
-2:Nelson Semedo:Portugal:
-3:Gerard Pique:Spain:
-4:Ivan Rakitic:Croatia:
-5:Sergio Busquets:Spain:
-6:Denis Suarez:Spain:
-7:Philippe Coutinho:Brazil:
-8:Arthur Melo:Brazil:
-9:Luis Suarez:Uruguay:
-10:Lionel Messi:Argentina:
-11:Ousmane Dembele:France:
-12:Rafinha:Brazil:
-13:Jasper Cillessen:Netherlands:
-14:Malcom:Brazil:
-15:Clement Lenglet:France:
-16:Samper:Spain:
-18:Jordi Alba:Spain:
-19:Kevin-Prince Boateng:Ghana:
-20:Sergi Roberto:Spain:
-21:Carles Alena:Spain:
-22:Arturo Vidal:Chile:
-23:Samuel Umtiti:France
-27:Juan Miranda:Spain:
-
+1:Marc Andre Ter Stegen:Germany:GOALKEEPER:0:0
+2:Nelson Semedo:Portugal:DEFENDER:0:0
+3:Gerard Pique:Spain:DEFENDER:0:0
+4:Ivan Rakitic:Croatia:MIDFIELDER:0:0
+5:Sergio Busquets:Spain:MIDFIELDER:0:0
+6:Denis Suarez:Spain:MIDFIELDER:0:0
+7:Philippe Coutinho:Brazil:FORWARD:0:0
+8:Arthur Melo:Brazil:MIDFIELDER:0:0
+9:Luis Suarez:Uruguay:FORWARD:0:0
+10:Lionel Messi:Argentina:FORWARD:0:0
+11:Ousmane Dembele:France:FORWARD:0:0
+12:Rafinha:Brazil:MIDFIELDER:0:0
+13:Jasper Cillessen:Netherlands:0:0
+14:Malcom:Brazil:FORWARD:0:0
+15:Clement Lenglet:France:DEFENDER:0:0
+16:Samper:Spain:MIDFIELDER:0:0
+18:Jordi Alba:Spain:DEFENDER:0:0
+19:Kevin-Prince Boateng:Ghana:FORWARD:0:0
+20:Sergi Roberto:Spain:MIDFIELDER:0:0
+21:Carles Alena:Spain:MIDFIELDER:0:0
+22:Arturo Vidal:Chile:MIDFIELDER:0:0
+23:Samuel Umtiti:France:DEFENDER:0:0
+27:Juan Miranda:Spain:DEFENDER:0:0
