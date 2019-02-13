@@ -1,17 +1,15 @@
 package com.company;
 
-import java.util.Date;
-
 public class Player extends Person{
 
-    private int idLicence;
+    private String idLicence;
     private int number_on_shirt;
     private String position;
     private int nbGoals;
     private int nbAssists;
 
-    public Player(int idLicence, int number_on_shirt, String position, int nbGoals, int nbAssists, String fullname, Date birthDate, String birthPlace, String nationality) {
-        super(fullname, birthDate, birthPlace, nationality);
+    public Player(String idLicence, int number_on_shirt, String position, int nbGoals, int nbAssists, String fullname, String birthDate, String nationality) {
+        super(fullname, birthDate, nationality);
         this.idLicence = idLicence;
         this.number_on_shirt=number_on_shirt;
         this.position = position;
@@ -19,11 +17,11 @@ public class Player extends Person{
         this.nbAssists = nbAssists;
     }
 
-    public int getIdLicence() {
+    public String getIdLicence() {
         return idLicence;
     }
 
-    public void setIdLicence(int idLicence) {
+    public void setIdLicence(String idLicence) {
         this.idLicence = idLicence;
     }
 
@@ -52,8 +50,9 @@ public class Player extends Person{
     }
 
     public void showPlayerInfos() {
-        System.out.println(super.getFullname());
-        System.out.println(super.getBirthDate() + " in " + super.getBirthPlace());
-        System.out.println(position + " " + number_on_shirt);
+        System.out.println("Full Name: " + super.getFullname());
+        System.out.println("Born: " + super.getBirthDate() + " in " + super.getNationality());
+        System.out.println("Position: " + position + " " + number_on_shirt);
+        System.out.println("Number of Goals/Assists: " + nbGoals + "/" + nbAssists);
     }
 }

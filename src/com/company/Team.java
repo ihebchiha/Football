@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.exceptions.PlayerNotFound;
+import com.company.util.OpsImpl;
 
 import java.util.ArrayList;
 
@@ -10,16 +11,14 @@ public class Team {
     private String nameTeam;
     private ArrayList<Player> players;
 
-    public Team(int idTeam, String nameTeam, ArrayList<Player> players) {
+    public Team(int idTeam, String nameTeam, ArrayList<Player> players, String file) {
         this.idTeam = idTeam;
         this.nameTeam = nameTeam;
-        this.players = initializePlayers();
+        this.players = (ArrayList<Player>) initializePlayers(file, players);
     }
 
-    public ArrayList<Player> initializePlayers() {
-        ArrayList<Player> mPlayers = new ArrayList<>();
-
-        return mPlayers;
+    public ArrayList<Player> initializePlayers(String file, ArrayList<Player> players) {
+        return (new OpsImpl().readFromFile(file, players));
     }
     public int getIdTeam() {
         return idTeam;

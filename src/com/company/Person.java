@@ -1,18 +1,14 @@
 package com.company;
 
-import java.util.Date;
-
 public class Person {
 
     private String fullname;
-    private Date birthDate;
-    private String birthPlace;
+    private String birthDate;
     private String nationality;
 
-    public Person(String fullname, Date birthDate, String birthPlace, String nationality) {
+    public Person(String fullname, String birthDate, String nationality) {
         this.fullname = fullname;
         this.birthDate = birthDate;
-        this.birthPlace = birthPlace;
         this.nationality = nationality;
     }
 
@@ -25,20 +21,12 @@ public class Person {
         this.fullname = fullname;
     }
 
-    public Date getBirthDate() {
+    public String getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(Date birthDate) {
+    public void setBirthDate(String birthDate) {
         this.birthDate = birthDate;
-    }
-
-    public String getBirthPlace() {
-        return birthPlace;
-    }
-
-    public void setBirthPlace(String birthPlace) {
-        this.birthPlace = birthPlace;
     }
 
     public String getNationality() {
