@@ -212,7 +212,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550071095998" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550071356153" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -265,7 +265,7 @@
       <workItem from="1549960427425" duration="2417000" />
       <workItem from="1549968616884" duration="5323000" />
       <workItem from="1550064958354" duration="92000" />
-      <workItem from="1550065928647" duration="5410000" />
+      <workItem from="1550065928647" duration="6014000" />
     </task>
     <task id="LOCAL-00001" summary="adding vcs.xml">
       <created>1548775901499</created>
@@ -309,11 +309,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550071094513</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update project">
+      <created>1550071350270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550071350270</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16601000" />
+    <option name="totallyTimeSpent" value="17205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
