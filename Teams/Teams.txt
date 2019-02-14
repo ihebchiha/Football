@@ -1,4 +1,4 @@
-1-FC Barcelona
-2-Napoli
-3-Manchester United
-4-Lyon
+0-FC Barcelona
+1-Napoli
+2-Manchester United
+3-Lyon

@@ -10,6 +10,11 @@ public class Team {
     private int idTeam;
     private String nameTeam;
     private ArrayList<Player> players;
+    private Coach coach;
+    private String formation;
+
+    public Team() {
+    }
 
     public Team(int idTeam, String nameTeam, ArrayList<Player> players, String file) {
         this.idTeam = idTeam;
@@ -63,6 +68,12 @@ public class Team {
                 player.showPlayerInfos();
                 break;
             }
+        }
+    }
+
+    public void historyTeam(String file) {
+        for (Player player : players) {
+            player.showPlayerInfos();
         }
     }
 }

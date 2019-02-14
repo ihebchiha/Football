@@ -54,5 +54,6 @@ public class Player extends Person{
         System.out.println("Born: " + super.getBirthDate() + " in " + super.getNationality());
         System.out.println("Position: " + position + " " + number_on_shirt);
         System.out.println("Number of Goals/Assists: " + nbGoals + "/" + nbAssists);
+        System.out.println("------------------------------------------------------------------");
     }
 }

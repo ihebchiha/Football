@@ -9,7 +9,7 @@ public class MenuCompetition {
 
     public MenuCompetition() {
         this.menuItems = new ArrayList<String>(
-                Arrays.asList("start Competition", "Check existing Competition", "Search for Teams", "Quit App"));
+                Arrays.asList("Start Competition", "Search for Teams", "Quit App"));
     }
 
     public void showMenuCompetition()

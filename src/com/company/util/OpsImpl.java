@@ -17,8 +17,8 @@ public class OpsImpl implements IOps {
             if (bufferedReader == null) {
                 bufferedReader = new BufferedReader(new FileReader(
                         file));
-                String line = bufferedReader.readLine();
-                while (line != null) {
+                String line;
+                while ((line = bufferedReader.readLine()) != null) {
                     String[] dv = line.split(":");
                     players.add(new Player(dv[0], Integer.parseInt(dv[1]), dv[5], Integer.parseInt(dv[6]), Integer.parseInt(dv[7]), dv[2], dv[3], dv[4]));
                     line = bufferedReader.readLine();
@@ -34,6 +34,5 @@ public class OpsImpl implements IOps {
 
     @Override
     public void writeOnFile(String file, String content) {
-
     }
 }
