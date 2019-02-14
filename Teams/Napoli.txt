@@ -1,9 +1,9 @@
-﻿nap001:1:Alex Meret:Italy:GOALKEEPER:0:0
-nap025:25:David Ospina:Colombia:GOALKEEPER:0:0
-nap027:27:Orestis Karnezis:Greece:GOALKEEPER:0:0
-nap002:2:Kévin Malcuit	France:DEFENDER:0:0
-nap006:6:Mário Rui:Portugal:DEFENDER:0:0
-nap013:13:Sebastiano Luperto:Italy:DEFENDER:0:0
+﻿nap001:1:Alex Meret:30/04/1992:Italy:GOALKEEPER:0:0
+nap025:25:David Ospina:30/04/1992:Colombia:GOALKEEPER:0:0
+nap027:27:Orestis Karnezis:Greece:30/04/1992:GOALKEEPER:0:0
+nap002:2:Kévin Malcuit:France:30/04/1992:DEFENDER:0:0
+nap006:6:Mário Rui:Portugal:30/04/1992:DEFENDER:0:0
+nap013:13:Sebastiano Luperto:Italy:30/04/1992:DEFENDER:0:0
 nap019:19:Nikola Maksimović:Serbia:DEFENDER:0:0
 nap021:21:Vlad Chiricheș:Romania:DEFENDER:0:0
 nap023:23:Elseid Hysaj:Albania:DEFENDER:0:0
