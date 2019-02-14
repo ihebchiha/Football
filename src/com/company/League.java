@@ -97,7 +97,7 @@ public class League {
         }
     }
 
-    public void playMatches() {
+    public void playMatches() throws IOException {
         OpsImpl ops = new OpsImpl();
         for (Team[] teamsC : fixtures) {
             Random random = new Random();
@@ -108,6 +108,7 @@ public class League {
             String winner = "";
             if (winningTeam == 1) {
                 anounceWinner(winner, ops, teamsC[0].getNameTeam(), teamsC[1].getNameTeam(), nbGoalsFirstTeam, nbGoalsSecondTeam);
+
             }
             if (winningTeam == 2) {
                 anounceWinner(winner, ops, teamsC[1].getNameTeam(), teamsC[0].getNameTeam(), nbGoalsSecondTeam, nbGoalsFirstTeam);
@@ -134,7 +135,7 @@ public class League {
         return (winner);
     }
 
-    public void anounceWinner(String winner, OpsImpl ops, String teamOne, String teamTwo, int nbgOne, int nbgTwo) {
+    public void anounceWinner(String winner, OpsImpl ops, String teamOne, String teamTwo, int nbgOne, int nbgTwo) throws IOException {
         winner = showWinner(teamOne, teamTwo, nbgOne, nbgTwo);
         System.out.println(winner);
         ops.writeOnFile("C:/Users/iheb.chiha/IdeaProjects/Football/Teams/results.txt", winner);

@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.exceptions.LeagueNotStarted;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -23,7 +24,7 @@ public class Main {
         menu.showMenuCompetition();
     }
 
-    public static void main(String[] args) throws LeagueNotStarted {
+    public static void main(String[] args) throws LeagueNotStarted, IOException {
         System.out.println("**************************************************");
         System.out.println("*                                                *");
         System.out.println("*                                                *");

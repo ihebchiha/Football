@@ -1,0 +1,12 @@
+Lyon 6 - 5 Manchester United
+Napoli 9 - 1 Manchester United
+FC Barcelona 7 - 4 Napoli
+Manchester United 6 - 5 FC Barcelona
+Napoli 9 - 4 FC Barcelona
+Lyon 8 - 6 Napoli
+Manchester United 8 - 7 FC Barcelona
+FC Barcelona 7 - 2 Lyon
+Lyon 9 - 5 FC Barcelona
+Napoli 9 - 0 Lyon
+Lyon 7 - 1 Manchester United
+Manchester United 6 - 5 Napoli

@@ -2,9 +2,7 @@ package com.company.util;
 
 import com.company.Player;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 
 public class OpsImpl implements IOps {
@@ -33,6 +31,10 @@ public class OpsImpl implements IOps {
     }
 
     @Override
-    public void writeOnFile(String file, String content) {
+    public void writeOnFile(String file, String content) throws IOException {
+        BufferedWriter fichier = new BufferedWriter(new FileWriter(file, true));
+        fichier.write(content);
+        fichier.newLine();
+        fichier.close();
     }
 }
